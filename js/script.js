@@ -19,6 +19,14 @@ $(document).ready(function() {
 		$(".stream3").removeClass('highlight_stream');
 	  	$(".stream3").addClass('highlight_stream');
 	});
+	
+	$("#button1").mouseenter(function(){
+		$(this).removeClass("make-red").addClass("make-border");
+	});
+	
+		$("#button1").mouseleave(function(){
+		$(this).removeClass("make-border").addClass("make-red");
+	});
 
 
 }); 
