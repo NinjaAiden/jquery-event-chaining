@@ -27,6 +27,10 @@ $(document).ready(function() {
 		$("#button1").mouseleave(function(){
 		$(this).removeClass("make-border").addClass("make-red");
 	});
+	
+	$("#button1").click(function(){
+		$(this).siblings("p").slideToggle("medium");
+	});
 
 
 }); 
